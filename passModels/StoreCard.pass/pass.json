@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.scanme.scanme",
+  "serialNumber": "123456",
+  "teamIdentifier": "6A9ZYXP799",
+  "organizationName": "Your Organization",
+  "description": "Your pass description",
+  "logoText": "Your Logo Text",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(0, 0, 0)",
+  "labelColor": "rgb(255, 255, 255)",
+  "storeCard": {
+    "primaryFields": [
+      {
+        "key": "points",
+        "label": "Points",
+        "value": "0"
+      }
+    ]
+  },
+  "barcode": {
+    "format": "PKBarcodeFormatQR",
+    "message": "https://www.yourwebsite.com",
+    "messageEncoding": "iso-8859-1"
+  }
+}
